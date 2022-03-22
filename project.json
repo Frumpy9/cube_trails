@@ -1,6 +1,6 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "I made some colorful boxes bounce around the screen with trails!",
+	"description" : "I made some colorful boxes bounce around the screen with trails!\r\n\r\nFor color pallet enter hex codes separated by spaces, or the word random.",
 	"file" : "index.html",
 	"general" : 
 	{
@@ -8,16 +8,16 @@
 		{
 			"backgroundcolor" : 
 			{
-				"index" : 2,
-				"order" : 102,
+				"index" : 3,
+				"order" : 103,
 				"text" : "Background Color",
 				"type" : "color",
 				"value" : "0 0 0"
 			},
 			"colorpallet" : 
 			{
-				"index" : 3,
-				"order" : 103,
+				"index" : 4,
+				"order" : 104,
 				"text" : "Color Pallet",
 				"type" : "textinput",
 				"value" : "random"
@@ -29,6 +29,14 @@
 				"text" : "Number of Boxes",
 				"type" : "textinput",
 				"value" : "15"
+			},
+			"randomsize" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Random Size",
+				"type" : "bool",
+				"value" : false
 			},
 			"schemecolor" : 
 			{
